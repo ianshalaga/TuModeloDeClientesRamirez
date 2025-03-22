@@ -8,7 +8,7 @@ class ColoredPrinter:
     """
 
     @staticmethod
-    def colored_print(text: str, color: str) -> None:
+    def __colored_print(text: str, color: str) -> None:
         """
             Prints text in console with color using termcolor library.
 
@@ -23,7 +23,7 @@ class ColoredPrinter:
         print(ctext)
 
     # colored_print function wrappers
-    cprint_success = partial(colored_print, color="green")
-    cprint_warning = partial(colored_print, color="yellow")
-    cprint_failure = partial(colored_print, color="red")
-    cprint_info = partial(colored_print, color="blue")
+    cprint_success = partial(__colored_print, color="green")
+    cprint_warning = partial(__colored_print, color="yellow")
+    cprint_failure = partial(__colored_print, color="red")
+    cprint_info = partial(__colored_print, color="blue")

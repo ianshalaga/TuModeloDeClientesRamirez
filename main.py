@@ -1,15 +1,13 @@
-from my_package.file_manager import JsonFileManager
+import sys
 from my_package import ColoredPrinter
+from my_package import App
 
-name = "file.json"
-json_file = JsonFileManager(name)
-# json_data = json_file.read()
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        ColoredPrinter.cprint_failure("Uso incorrecto.")
+        ColoredPrinter.cprint_info(
+            "Este programa no acepta argumentos de línea de comandos (flags / opciones).")
+        exit()
 
-# print(json_data)
-
-data = {
-    "uno": 1,
-    "dos": 2
-}
-
-json_file.write(data)
+    app = App()
+    app.run()

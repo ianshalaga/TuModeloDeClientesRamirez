@@ -10,23 +10,23 @@ Crea un programa que permita el modelamiento de Clientes en una página de compr
 
 ## Objetivos
 
-- Demostrar la comprensión de los conceptos de **Clases** y **Objetos**.
-- Ejecutar correctamente el uso de paquetes y librerías.
+- [x] Demostrar la comprensión de los conceptos de **Clases** y **Objetos**.
+- [x] Ejecutar correctamente el uso de paquetes y librerías.
 
 ## Requisitos
 
-- Clases (para cliente),
-- Atributos de instancia (opcional alguno de clase)
-- Métodos (por fuera de los _magic methods_)
-- Uso de módulos/paquetes.
+- [x] Clases (para cliente),
+- [x] Atributos de instancia (opcional alguno de clase)
+- [x] Métodos (por fuera de los _magic methods_)
+- [x] Uso de módulos/paquetes.
 - Generación de paquete redistribuible.
 
 ## Recomendaciones
 
-- La clase **Cliente** debe tener como mínimo 4 atributos.
-- Se debe utilizar el método **init**, para definir uno o más de los atributos del punto anterior.
-- Se debe utilizar el método **str()** para darle nombre a los objetos.
-- Generar 2 métodos por fuera de los **magic methods**.
+- [x] La clase **Cliente** debe tener como mínimo 4 atributos.
+- [x] Se debe utilizar el método **init**, para definir uno o más de los atributos del punto anterior.
+- [x] Se debe utilizar el método **str()** para darle nombre a los objetos.
+- [x] Generar 2 métodos por fuera de los **magic methods**.
 - Para crear el paquete distribuible también como adicional el archivo de la Pre entrega #1.
 
 ## Formato
@@ -37,8 +37,8 @@ El proyecto debe ser un archivo comprimido del paquete. Formatos aceptados: **.z
 
 Estos contenidos adicionales no se incluyen en los criterios de evaluación, son optativos, pero si te gustaría agregar valor a tu proyecto… ¡Súmalos!. Solo ten en cuenta que aquello que incluyas debe funcionar correctamente.
 
-- Uso de herencia.
-- Uso de archivos.
+- [x] Uso de herencia.
+- [x] Uso de archivos.
 
 ---
 
