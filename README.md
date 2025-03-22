@@ -42,12 +42,12 @@ Estos contenidos adicionales no se incluyen en los criterios de evaluación, son
 
 ---
 
-## Módulos
+## Módulos (internos)
 
 - [sys](https://docs.python.org/3/library/sys.html): Proporciona funciones y variables para interactuar con el intérprete de Python y el sistema operativo.
 
 - [functools](https://docs.python.org/3/library/functools.html): Proporciona herramientas para trabajar con funciones de orden superior (funciones que reciben o devuelven otras funciones).
 
-## Paquetes
+## Paquetes (externos)
 
 - [termcolor](https://pypi.org/project/termcolor/): Permite imprimir texto coloreado en la terminal usando códigos ANSI.
