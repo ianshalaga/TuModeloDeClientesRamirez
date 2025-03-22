@@ -3,6 +3,13 @@ from my_package import ColoredPrinter
 
 name = "file.json"
 json_file = JsonFileManager(name)
-json_file.read()
+# json_data = json_file.read()
 
-ColoredPrinter.cprint_info("INFO")
+# print(json_data)
+
+data = {
+    "uno": 1,
+    "dos": 2
+}
+
+json_file.write(data)

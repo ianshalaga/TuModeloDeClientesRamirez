@@ -18,27 +18,6 @@ class FileManager(ABC):
         """
         self._filename = filename
 
-    # def get_filename(self) -> str:
-    #     """
-    #     Attr filename getter.
-
-    #     Returns:
-    #     - str: Name of the file.
-    #     """
-    #     return self.__filename
-
-    # def set_filename(self, filename: str):
-    #     """
-    #     Attr filename setter.
-
-    #     Args:
-    #     - filename (str): Name of the file.
-
-    #     Returns:
-    #     - None
-    #     """
-    #     self.__filename = filename
-
     @abstractmethod
     def read(self):
         """
