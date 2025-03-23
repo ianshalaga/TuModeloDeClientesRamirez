@@ -19,7 +19,7 @@ Crea un programa que permita el modelamiento de Clientes en una página de compr
 - [x] Atributos de instancia (opcional alguno de clase)
 - [x] Métodos (por fuera de los _magic methods_)
 - [x] Uso de módulos/paquetes.
-- Generación de paquete redistribuible.
+- [x] Generación de paquete redistribuible.
 
 ## Recomendaciones
 
