@@ -51,3 +51,5 @@ Estos contenidos adicionales no se incluyen en los criterios de evaluación, son
 ## Paquetes (externos)
 
 - [termcolor](https://pypi.org/project/termcolor/): Permite imprimir texto coloreado en la terminal usando códigos ANSI.
+
+- [setuptools](https://pypi.org/project/setuptools/): Facilita la creación, gestión y distribución de paquetes.
