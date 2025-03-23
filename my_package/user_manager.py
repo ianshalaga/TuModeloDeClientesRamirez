@@ -120,6 +120,6 @@ class UserManager:
 
             for user, password in user_data.items():
                 user_obj = User(user, password)
-                ColoredPrinter.cprint_info(user_obj.__str__())
+                ColoredPrinter.cprint_info(user_obj)
         except Exception as e:
             ColoredPrinter.cprint_failure(f"Ocurrión un error inesperado: {e}")
